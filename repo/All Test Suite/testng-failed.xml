@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ap.ITestListener.TestListener"/>
+  </listeners>
+  <test name="C:/Users/19174/Desktop/PreParation/IntelliJProjects/AutomationPracticeInDetails/src/main/java/com/ap/Tests(failed)">
+    <classes>
+      <class name="com.ap.Tests.HomePageTest">
+        <methods>
+          <include name="LaunchingBrowser"/>
+          <include name="checkSignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ap.Tests.HomePageTest -->
+    </classes>
+  </test> <!-- C:/Users/19174/Desktop/PreParation/IntelliJProjects/AutomationPracticeInDetails/src/main/java/com/ap/Tests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

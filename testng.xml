@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.ap.ITestListener.TestListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/19174/Desktop/PreParation/IntelliJProjects/AutomationPracticeInDetails/src/main/java/com/ap/Tests"><classes>
+        <class name="com.ap.Tests.HomePageTest">
+            <methods><include name="checkSignIn"/></methods>
+        </class><class name="com.ap.Tests.ProfilePageTest">
+        <methods><include name="profilePageTest"/></methods></class>
+        <class name="com.ap.Tests.SignInPageTest"><methods>
+            <include name="ssN"/><include name="ppPage"/></methods></class></classes></test></suite>
