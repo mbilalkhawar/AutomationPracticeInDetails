@@ -20,14 +20,14 @@ public class SignInPageTest extends BaseClass {
         ssG = new SignInPage();
     }
 
-    @Test(priority = 0)
+    @Test(priority = 0 ,groups = {"sanity"})
     public void ssN()
     {
         hhG.signPg();
         ssG.enteringEmAndPswd(propt.getProperty("username"), propt.getProperty("password") );
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"regression"})
     public void ppPage()
     {
         ssG.signIn();

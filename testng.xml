@@ -10,4 +10,10 @@
         </class><class name="com.ap.Tests.ProfilePageTest">
         <methods><include name="profilePageTest"/></methods></class>
         <class name="com.ap.Tests.SignInPageTest"><methods>
-            <include name="ssN"/><include name="ppPage"/></methods></class></classes></test></suite>
+            <include name="ssN"/>
+            <include name="ppPage"/>
+        </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
