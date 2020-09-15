@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 10.772 sec <<< FAILURE! - in TestSuite
+LaunchingBrowser(com.ap.Tests.HomePageTest)  Time elapsed: 5.49 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\19174\Desktop\PreParation\IntelliJProjects\ChromeDriver\chromedriver_win32_final\chromedriver.exe
+	at com.ap.Tests.HomePageTest.LaunchingBrowser(HomePageTest.java:19)
+

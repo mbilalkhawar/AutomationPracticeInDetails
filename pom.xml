@@ -222,7 +222,7 @@
                  </systemPropertyVariables>
                  Old design where we can hard code TestNG suite in pom.xml -->
                 <suiteXmlFiles>
-                    <suiteXmlFile>src\\main\java\com\ap\Tests\TestNG.xml</suiteXmlFile>
+                    <suiteXmlFile>src\\main\\java\\com\\ap\\Tests\\TestNG.xml</suiteXmlFile>
                <!-- <suiteXmlFiles>
                     <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
                 </suiteXmlFiles>

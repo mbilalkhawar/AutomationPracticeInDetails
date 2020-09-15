@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [AutomationPractice]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="classes" name="AutomationPracticeTesting(failed)">
+    <classes>
+      <class name="com.ap.Tests.HomePageTest">
+        <methods>
+          <include name="LaunchingBrowser"/>
+          <include name="checkSignIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ap.Tests.HomePageTest -->
+      <class name="com.ap.Tests.ProfilePageTest">
+        <methods>
+          <include name="profilePageTest"/>
+          <include name="tearDown"/>
+          <include name="LaunchingBrowser"/>
+        </methods>
+      </class> <!-- com.ap.Tests.ProfilePageTest -->
+      <class name="com.ap.Tests.SignInPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ssN"/>
+          <include name="LaunchingBrowser"/>
+          <include name="ppPage"/>
+        </methods>
+      </class> <!-- com.ap.Tests.SignInPageTest -->
+    </classes>
+  </test> <!-- AutomationPracticeTesting(failed) -->
+</suite> <!-- Failed suite [AutomationPractice] -->
