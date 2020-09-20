@@ -1,8 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 10.772 sec <<< FAILURE! - in TestSuite
-LaunchingBrowser(com.ap.Tests.HomePageTest)  Time elapsed: 5.49 sec  <<< FAILURE!
-java.lang.IllegalStateException: The driver executable does not exist: C:\Users\19174\Desktop\PreParation\IntelliJProjects\ChromeDriver\chromedriver_win32_final\chromedriver.exe
-	at com.ap.Tests.HomePageTest.LaunchingBrowser(HomePageTest.java:19)
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 141.971 sec <<< FAILURE! - in TestSuite
+ssN(com.ap.Tests.SignInPageTest)  Time elapsed: 4.398 sec  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AV4TL8G', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\19174\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87e79439b95ae21c761870dded58bb69
+	at com.ap.Tests.SignInPageTest.ssN(SignInPageTest.java:27)
 

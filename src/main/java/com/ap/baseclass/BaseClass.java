@@ -35,7 +35,7 @@ public class BaseClass {
         String browserName = propt.getProperty("browser");
         if(browserName.equalsIgnoreCase("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\19174\\Desktop\\PreParation\\IntelliJProjects\\ChromeDriver\\chromedriver_win32_final\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\19174\\Desktop\\PreParation\\IntelliJProjects\\ChromeDriver\\chromedriver_85\\chromedriver.exe");
             driver = new ChromeDriver();
             dr = new EventFiringWebDriver(driver);
             eventListener = new WebEventListener();

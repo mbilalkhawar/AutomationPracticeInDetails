@@ -23,7 +23,7 @@ public class HomePageTest extends BaseClass {
     @Test
     public void checkSignIn() {
         System.out.println("Testing checkSignIN");
-        Assert.assertEquals("My LB Store", driver.getTitle());
+        Assert.assertEquals("My Store", driver.getTitle());
         hmPg.signPg();
     }
 
